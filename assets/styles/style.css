@@ -156,9 +156,9 @@ header h2 {
 .about {
   margin: 400px 0 250px;
 }
-.img1 {
+/*.img1 {
   background: url(../img/adrien.jpg) top/cover;
-}
+}*/
 .h2-wrapper {
   mix-blend-mode: exclusion;
   margin: -220px 0 200px;
