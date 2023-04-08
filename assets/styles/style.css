@@ -245,10 +245,10 @@ header h2 {
   opacity: 0;
 }
 .project-infos a {
-  font-size: calc(1rem + 3vw);
+  font-size: calc(1rem + 2vw);
 }
 .project-infos p {
-  font-size: 2rem;
+  font-size: 1,75rem;
   margin-top: 1.5vw;
   color: #fefeff;
 }
