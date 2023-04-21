@@ -15,3 +15,27 @@ scroll.on("scroll", () => {
     document.body.style.color = "#000101";
   }
 });
+
+// Afficher/masquer le bouton en fonction du défilement de la page
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("btnTop").style.display = "block";
+  } else {
+    document.getElementById("btnTop").style.display = "none";
+  }
+}
+
+// Remonter en haut de la page lorsqu'on clique sur le bouton
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// Ajouter un événement onclick au bouton
+document.getElementById("btnTop").onclick = function() {
+  topFunction();
+};

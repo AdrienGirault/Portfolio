@@ -310,5 +310,66 @@ button:focus {
   padding: 0;
   list-style: none;
 }
+.li {
+  margin: 0 10px;
+}
+.li a {
+  text-decoration: none;
+  color: #fefeff;
+  font-size: calc(1rem + 1vw);
+  font-family: "font-bold", serif;
+  letter-spacing: 2px;
+}
+.li a:hover {
+  color: #000101;
+}
+@media screen and (max-width: 768px) {
+  .project {
+    width: 80vw;
+  }
+  #p2 {
+    margin: 0 6vw 0 auto;
+  }
+  #p3 {
+    margin-left: 8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project {
+    width: 90vw;
+  }
+  #p2 {
+    margin: 0 6vw 0 auto;
+  }
+  #p3 {
+    margin-left: 8vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .project {
+    width: 90vw;
+  }
+  #p2 {
+    margin: 0 6vw 0 auto;
+  }
+  #p3 {
+    margin-left: 8vw;
+  }
+}
+#btnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #555;
+  color: #050505;
+  border-radius: 50%;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
 
 
