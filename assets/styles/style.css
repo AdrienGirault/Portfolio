@@ -344,6 +344,9 @@ button:focus {
   #p3 {
     margin-left: 8vw;
   }
+  #p4 {
+    margin: 0 6vw 0 auto;
+  }
 }
 @media screen and (max-width: 320px) {
   .project {
