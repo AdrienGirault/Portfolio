@@ -28,14 +28,3 @@ function scrollFunction() {
     document.getElementById("btnTop").style.display = "none";
   }
 }
-
-// Remonter en haut de la page lorsqu'on clique sur le bouton
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// Ajouter un événement onclick au bouton
-document.getElementById("btnTop").onclick = function() {
-  topFunction();
-};

@@ -356,19 +356,7 @@ button:focus {
     margin-left: 8vw;
   }
 }
-#btnTop {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #555;
-  color: #050505;
-  border-radius: 50%;
-  border: none;
-  padding: 15px;
-  font-size: 16px;
-  cursor: pointer;
-}
+
 
 
 
